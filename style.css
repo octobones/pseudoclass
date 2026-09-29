@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+h1{
+    color: aliceblue;
+    background-color: blue;
+}
+/*pseudo classe é uma palavra-chave adicionada ao seletor que define o estilo de um elemento quando ele está em um estado específico*/
+h1:hover{
+    background-color: cadetblue;
+    color: black;
+    font-size: larger;
+    padding: 20px;
+    font-weight: bold;
+}
+/*Active*/
+h2{
+    background-color: chartreuse;
+    color:rgb(44, 5, 5)
+}
+h2:active{
+    background-color: darkgreen;
+    color: bisque;
+}
+#miguel{
+    width: 100%;
+    height: 400px;
+    background-color: mediumspringgreen;
+}
+.batata{
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    background-color: red;
+    display: inline-block;
+    margin-left: 180px;
+    text-align: center;
+    padding-top: 30px;
+}
+.batata:hover{
+    background-color: darkred;
+    color: darkblue;
+    transform: rotateY(10rad);
+    transition: 5s
+}
